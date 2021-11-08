@@ -1,3 +1,4 @@
+#!/bin/sh
 echo "Enter the basic salary"
 read bs
 
