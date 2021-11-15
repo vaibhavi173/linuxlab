@@ -1,5 +1,3 @@
-#!/bin/sh
-
 echo "Combinations of 1 2 3"
 
 for i in 1 2 3
@@ -8,7 +6,9 @@ do
   do
     for k in 1 2 3
     do
-      echo $i $j $k
+    	if [ $i -ne $j -a $j -ne $k -a $k -ne $i ]; then
+      		echo $i $j $k
+      	fi
     done
   done
 done
