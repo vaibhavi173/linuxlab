@@ -6,10 +6,10 @@ echo "Enter the power of number"
 read pow
 count=1
 ans=1
-while [ $count -le $n ]
+while [ $count -le $pow ]
 do
-ans=$((ans*n))
-count=$((count+1))
+	ans=$((ans*n))
+	count=$((count+1))
 done 
 echo "Power $pow of number $n is : "
 echo $ans
