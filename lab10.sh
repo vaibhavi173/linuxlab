@@ -6,9 +6,7 @@ do
   do
     for k in 1 2 3
     do
-    	if [ $i -ne $j -a $j -ne $k -a $k -ne $i ]; then
-      		echo $i $j $k
-      	fi
+      echo $i $j $k
     done
   done
 done
